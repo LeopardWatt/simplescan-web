@@ -14,3 +14,7 @@ docker-compose up -d
 Browse http://localhost:5800
 -----------------------------------------
 Enjoy!
+
+## Screenshot
+
+![SimpleScan Web UI](assets/simplescan-web1.png)
