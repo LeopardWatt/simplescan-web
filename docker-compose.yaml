@@ -13,7 +13,7 @@ services:
     volumes:
       - "/home/User/Desktop/Scanner-Docs:/config/images"  # Change the host path to your own directory for saving scanned images
     ports:
-      - "5800:5800"
+      - "5800:5800" # Access via browser: http://<your-host-ip>:5800
     devices:
       - /dev/bus/usb:/dev/bus/usb
-    privileged: true
+    privileged: true  # Required for scanner hardware access
