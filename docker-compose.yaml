@@ -3,6 +3,7 @@ version: "3.9"
 services:
   simplescan:
     container_name: simplescan-web
+    hostname: simplescan-web
     image: simplescan-web:latest
     restart: unless-stopped
     environment:
