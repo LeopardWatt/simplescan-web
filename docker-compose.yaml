@@ -1,13 +1,18 @@
-version: "3"
+version: "3.9"
+
 services:
   simplescan:
-    container_name: simplescan
+    container_name: simplescan-web
+    image: simplescan-web:latest
     restart: unless-stopped
-    volumes:
-      - $HOME:/config/images
     environment:
       USER_ID: 1000
       GROUP_ID: 1000
-      TZ: 'Europe/Stockholm'
-    image: simplescan:latest
-
+      TZ: 'Europe/Kyiv'
+    volumes:
+      - "/home/User/Desktop/Scanner-Docs:/config/images"  # Change the host path to your own directory for saving scanned images
+    ports:
+      - "5800:5800"
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    privileged: true
