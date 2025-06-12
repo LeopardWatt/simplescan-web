@@ -1,6 +1,6 @@
 # SimpleScan Web
 
-A simple, Dockerized scanning app with a web interface.
+A simple, Dockerized scanning app with a web interface for all-in-one USB printers and USB scanners.
 
 ---
 
