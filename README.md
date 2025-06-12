@@ -51,6 +51,13 @@ http://localhost:5800
 
 ---
 
+## File Sharing
+
+There is **no built-in file sharing option** in SimpleScan Web at the moment.  
+You can use another solution, such as **SMB (Samba)**, to share or transfer scanned files on your own setup.
+
+---
+
 ## Notes
 
 - 🔧 Make sure to change volume paths or ports in `docker-compose.yml` to suit your environment.
