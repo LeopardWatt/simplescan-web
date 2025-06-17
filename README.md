@@ -60,7 +60,7 @@ You can use another solution, such as **SMB (Samba)**, to share or transfer scan
 
 ## Notes
 
-- 🔧 Make sure to change volume paths or ports in `docker-compose.yml` to suit your environment.
+- 🔧 Make sure to change volume paths or ports in `docker-compose.yaml` to suit your environment.
 - ⚠️ If you run into permission issues with devices or USB scanners, consider running with appropriate privileges.
 
 ---
